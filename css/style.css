@@ -373,15 +373,20 @@ ul {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
 }
-
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
   }
+  .navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
 }
